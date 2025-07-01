@@ -25,6 +25,9 @@ import {
     onlymusic,
     rps,
     threejs,
+    Ngo,
+    next_word,
+    dataranker
 } from "../assets";
 
 export const navLinks = [
@@ -124,11 +127,13 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "May 2025 - Jun 2025",
         points: [
-            "Developing and maintaining machine learning models using algorithms like Logistic Regression and Gradient Boosting to analyze educational data.",
-            "Collaborating with cross-functional teams including data analysts, product managers, and developers to deliver predictive solutions for student performance.",
-            "Generating probabilities of pass/fail outcomes and assigning performance ranks based on key input features.",
-            "Implementing the predictive system using the Flask framework with a user-friendly web interface for real-time evaluation and insights."
-        ],
+  "Performed data preprocessing on educational defect datasets containing Test IDs, defect statuses, and pass/fail outcomes as features.",
+  "Conducted data cleaning and calculated outcome probabilities to prepare the dataset for model training.",
+  "Trained Logistic Regression and Gradient Boosting models to classify student performance into 5 ranks based on feature analysis.",
+  "Developed a Flask-based web interface to display predicted ranks in tabular format along with test IDs.",
+  "Compared model outputs by calculating count differences across predicted ranks and visualizing the distribution of ranks for each algorithm."
+]
+
     },
 
 
@@ -136,6 +141,27 @@ const experiences = [
 
 
 const projects = [
+     {
+        name: "Ngo-Connect",
+        description:
+            "In a world where countless people want to contribute to meaningful causes—but don’t know how or where to start—NGO Connect creates a vital link between people and purpose.",
+        tags: [
+            {
+                name: "EJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: Ngo,
+        source_code_link: "https://github.com/Ashu09032005/NGO-Connect",
+    },
     {
         name: "YelpCamp",
         description:
@@ -156,6 +182,48 @@ const projects = [
         ],
         image: yelpcamp,
         source_code_link: "https://github.com/Ashu09032005/YelpCamp",
+    },
+      {
+        name: "Next_word_Predictor",
+        description:
+            "A Streamlit web app that predicts the next word in a given sentence using an LSTM model trained on Shakespeare’s Hamlet.",
+        tags: [
+            {
+                name: "streamlit",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "LSTM",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Python",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: next_word,
+        source_code_link: "https://github.com/Ashu09032005/Next_word_prediction",
+    },
+          {
+        name: "Data Ranker",
+        description:
+            "A Streamlit web app that predicts the next word in a given sentence using an LSTM model trained on Shakespeare’s Hamlet.",
+        tags: [
+            {
+                name: "streamlit",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "LSTM",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Python",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: dataranker,
+        source_code_link: "https://github.com/Ashu09032005/DataRanker",
     },
     {
         name: "Chatty",
@@ -178,6 +246,7 @@ const projects = [
         image: Chatty,
         source_code_link: "https://github.com/Ashu09032005/Chat-app",
     },
+      
     {
         name: "FilterMate",
         description:

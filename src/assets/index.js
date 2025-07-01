@@ -30,7 +30,9 @@ import Chatty from "./Chatty.png";
 import filtermate from "./filtermate.png";
 import onlymusic from "./onlymusic.png";
 import rps from "./rps.png";
-
+import Ngo from "./Ngo.png";
+import next_word from "./next_word.png";
+import dataranker from "./dataranker.png";
 export {
   logo,
   backend,
@@ -60,5 +62,8 @@ export {
   Chatty,
   filtermate,
   onlymusic,
-  rps
+  rps,
+  Ngo,
+  next_word,
+  dataranker
 };
