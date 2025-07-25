@@ -27,7 +27,9 @@ import {
     threejs,
     Ngo,
     next_word,
-    dataranker
+    dataranker,
+    tracksafe,
+    fire
 } from "../assets";
 
 export const navLinks = [
@@ -141,6 +143,48 @@ const experiences = [
 
 
 const projects = [
+    {
+        name: "Spread of Forest Fire Prediction",
+        description:
+            "Python, Scikit-learn, Pandas, and Folium used for building and visualizing predictive ML models.",
+        tags: [
+            {
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Flask",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Scikit-learn",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: fire,
+        source_code_link: "https://github.com/Ashu09032005/fire",
+    },
+    {
+        name: "TrackSafe",
+        description:
+            "TrackSafe is a real-time ML system using Gradient Boosting and SMOTE to detect railway anomalies like overspeed and signal violations via a Flask API.",
+        tags: [
+            {
+                name: "SMOTE",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "One hot encode",
+                color: "green-text-gradient",
+            },
+            {
+                name: "flask",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tracksafe,
+        source_code_link: "https://github.com/Ashu09032005/TrackSafe",
+    },
      {
         name: "Ngo-Connect",
         description:

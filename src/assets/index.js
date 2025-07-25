@@ -33,6 +33,8 @@ import rps from "./rps.png";
 import Ngo from "./Ngo.png";
 import next_word from "./next_word.png";
 import dataranker from "./dataranker.png";
+import tracksafe from "./tracksafe.png";
+import fire from "./fire.png";
 export {
   logo,
   backend,
@@ -65,5 +67,7 @@ export {
   rps,
   Ngo,
   next_word,
-  dataranker
+  dataranker,
+  fire,
+  tracksafe,
 };
